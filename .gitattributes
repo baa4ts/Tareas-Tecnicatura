@@ -1,0 +1,37 @@
+# Normaliza finales de línea automáticamente según SO
+* text=auto
+
+# Forzar LF para scripts y archivos que suelen fallar con CRLF
+*.sh    text eol=lf
+*.bash  text eol=lf
+*.py    text eol=lf
+*.sql   text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+*.json  text eol=lf
+*.js    text eol=lf
+*.jsx   text eol=lf
+*.ts    text eol=lf
+*.tsx   text eol=lf
+*.html  text eol=lf
+*.css   text eol=lf
+*.md    text eol=lf
+
+# Archivos que deben tener CRLF en Windows (opcional)
+*.bat   text eol=crlf
+*.cmd   text eol=crlf
+*.ps1   text eol=crlf
+
+# Archivos binarios (sin conversión)
+*.jpg   binary
+*.jpeg  binary
+*.png   binary
+*.gif   binary
+*.ico   binary
+*.pdf   binary
+*.zip   binary
+*.gz    binary
+*.tar   binary
+*.7z    binary
+*.exe   binary
+*.dll   binary
